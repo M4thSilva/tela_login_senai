@@ -1,0 +1,64 @@
+body
+{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+form
+{
+ 
+    width: 300px;
+    padding: 100px;
+    background-color: #5e2982;
+    text-align: justify;
+    border-radius: 20px;
+    margin: 200px auto;
+}
+
+label
+{
+    
+    font-size: 18px;
+    color: white;
+}
+.campos
+{
+    padding: 10px;
+    margin: 0;
+}  
+.campos input
+{
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+    border: none;
+}
+button
+{
+    padding: 10px;
+    width: 300px;
+    color: white;
+    background-image: linear-gradient(135deg, #d391f9 0, #aa72e5 25%, #7750cc 50%, #3732b4 75%, #001ea1 100%);
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button:active{
+    transform: scale(1);
+}
+
+h2
+{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
